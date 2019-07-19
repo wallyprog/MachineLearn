@@ -1,8 +1,5 @@
 class Robos:
     mensagem_erro = 'Valor não pode ser aplicado'
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
     
     def move_up(self):
         if ( self.y < 10):
